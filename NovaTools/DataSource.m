@@ -1,4 +1,10 @@
+/*
+ * DataSource.m
+ *
+ */
+
 #import "DataSource.h"
+#import "ResKnifePluginProtocol.h"
 #import "ResKnifeResourceProtocol.h"
 #import "NSNumber-Range.h"
 
@@ -13,13 +19,12 @@
 - (id)initForType:(NSString *)typeString
 {
 	self = [super init];
-	type = [typeString copy];
-	data = [[NSMutableDictionary alloc] init];
-	{
-		id <ResKnifeResourceProtocol> resource;
+	if (self) {
+		type = [typeString copy];
+		data = [[NSMutableDictionary alloc] init];
 		NSArray *resources = [NSClassFromString(@"Resource") allResourcesOfType:type inDocument:nil];	// nil document will search in ANY open document for the correct resource
 		NSEnumerator *enumerator = [resources objectEnumerator];
-		while( resource = [enumerator nextObject] )
+		while( id <ResKnifeResourceProtocol> resource in resources )
 			[data setObject:[resource name] forKey:[resource resID]];
 	}
 	parsed = [[NSMutableArray alloc] initWithArray:[data allValues]];

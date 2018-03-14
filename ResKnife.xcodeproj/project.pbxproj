@@ -12,6 +12,22 @@
 		0EF71540122BD0D0005DF94E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF7153F122BD0D0005DF94E /* Localizable.strings */; };
 		3DB9D66412307A9400DDA647 /* NovaTools.plugin in Copy Plugins */ = {isa = PBXBuildFile; fileRef = E17ADBC006A2132800842474 /* NovaTools.plugin */; };
 		3DB9D6E712307F6300DDA647 /* Bitmap Editor.plugin in Copy Plugins */ = {isa = PBXBuildFile; fileRef = E18BF69D069FEA1800F076B8 /* Bitmap Editor.plugin */; };
+		6125BE2C174FB56000B741D9 /* HexFiend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125BE2B174FB56000B741D9 /* HexFiend.framework */; };
+		6125BE2D174FB56000B741D9 /* HexFiend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125BE2B174FB56000B741D9 /* HexFiend.framework */; };
+		6125BF97174FBFFD00B741D9 /* Font Templates.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = 6125BF96174FBFFD00B741D9 /* Font Templates.rsrc */; };
+		6125BF98174FBFFD00B741D9 /* Font Templates.rsrc in Resources */ = {isa = PBXBuildFile; fileRef = 6125BF96174FBFFD00B741D9 /* Font Templates.rsrc */; };
+		6125BF9A174FC01400B741D9 /* FontWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125BF99174FC01400B741D9 /* FontWindowController.m */; };
+		6125BF9B174FC01400B741D9 /* FontWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125BF99174FC01400B741D9 /* FontWindowController.m */; };
+		6125BF9E174FC02E00B741D9 /* PasteMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6125BF9C174FC02E00B741D9 /* PasteMenu.nib */; };
+		6125BF9F174FC02E00B741D9 /* PasteMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6125BF9C174FC02E00B741D9 /* PasteMenu.nib */; };
+		6125BFA1174FC04000B741D9 /* HexWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125BFA0174FC04000B741D9 /* HexWindowController.m */; };
+		6125BFA2174FC04000B741D9 /* HexWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125BFA0174FC04000B741D9 /* HexWindowController.m */; };
+		6125BFA4174FC04E00B741D9 /* SupportedTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6125BFA3174FC04E00B741D9 /* SupportedTypes.plist */; };
+		6125BFA5174FC04E00B741D9 /* SupportedTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6125BFA3174FC04E00B741D9 /* SupportedTypes.plist */; };
+		6125BFA7174FC06F00B741D9 /* Info-ICONEditor__PB2___Upgraded_.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6125BFA6174FC06F00B741D9 /* Info-ICONEditor__PB2___Upgraded_.plist */; };
+		6125BFBF174FC08800B741D9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6125BFBE174FC08800B741D9 /* README.txt */; };
+		6125BFC1174FC08D00B741D9 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6125BFC0174FC08D00B741D9 /* version.plist */; };
+		6125BFC4174FC0DC00B741D9 /* PictWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6125BFC2174FC0DC00B741D9 /* PictWindow.nib */; };
 		A597747F1556EB2D0093DD6B /* NGSTemplateWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = A597747E1556EB2D0093DD6B /* NGSTemplateWindowController.h */; };
 		A59774A11556EBB30093DD6B /* NGSElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A59774A01556EBB30093DD6B /* NGSElement.h */; };
 		A59774D81556EE8D0093DD6B /* CDStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = A59774BF1556EE8D0093DD6B /* CDStructures.h */; };
@@ -288,6 +304,20 @@
 			remoteGlobalIDString = E18BF68E069FEA1800F076B8;
 			remoteInfo = "Bitmap Editor Cocoa";
 		};
+		6125BFB0174FC07300B741D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6125BFA8174FC07300B741D9 /* ICONEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6125BF62174FBD0600B741D9 /* ICONEditor.plugin */;
+			remoteInfo = "ICONEditor (PB2) (Upgraded)";
+		};
+		6125BFB2174FC07300B741D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6125BFA8174FC07300B741D9 /* ICONEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 014CEA410018CDE011CA2923 /* ICONEditor.plugin */;
+			remoteInfo = "ICONEditor (PB2)";
+		};
 		E13F836408F139E900E2A5CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F5B5880F0156D2A601000001 /* Project object */;
@@ -402,6 +432,17 @@
 		3D50047404EF122000F3B64D /* ElementLSTC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ElementLSTC.h; sourceTree = "<group>"; };
 		3D53A9FD04F171DC006651FA /* RKSupportResourceRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSupportResourceRegistry.h; sourceTree = "<group>"; };
 		3D53A9FE04F171DC006651FA /* RKSupportResourceRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSupportResourceRegistry.m; sourceTree = "<group>"; };
+		6125BE2B174FB56000B741D9 /* HexFiend.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HexFiend.framework; path = "/Applications/MacPorts/Hex Fiend.app/Contents/Frameworks/HexFiend.framework"; sourceTree = "<absolute>"; };
+		6125BF96174FBFFD00B741D9 /* Font Templates.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = "Font Templates.rsrc"; sourceTree = "<group>"; };
+		6125BF99174FC01400B741D9 /* FontWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontWindowController.m; sourceTree = "<group>"; };
+		6125BF9D174FC02E00B741D9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PasteMenu.nib; sourceTree = "<group>"; };
+		6125BFA0174FC04000B741D9 /* HexWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexWindowController.m; sourceTree = "<group>"; };
+		6125BFA3174FC04E00B741D9 /* SupportedTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SupportedTypes.plist; sourceTree = "<group>"; };
+		6125BFA6174FC06F00B741D9 /* Info-ICONEditor__PB2___Upgraded_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-ICONEditor__PB2___Upgraded_.plist"; sourceTree = "<group>"; };
+		6125BFA8174FC07300B741D9 /* ICONEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ICONEditor.xcodeproj; sourceTree = "<group>"; };
+		6125BFBE174FC08800B741D9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6125BFC0174FC08D00B741D9 /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = version.plist; sourceTree = "<group>"; };
+		6125BFC3174FC0DC00B741D9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = "Cocoa/Plug-Ins/PICT Editor/English.lproj/PictWindow.nib"; sourceTree = "<group>"; };
 		A597747E1556EB2D0093DD6B /* NGSTemplateWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSTemplateWindowController.h; sourceTree = "<group>"; };
 		A59774A01556EBB30093DD6B /* NGSElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSElement.h; sourceTree = "<group>"; };
 		A59774BF1556EE8D0093DD6B /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
@@ -699,6 +740,7 @@
 			files = (
 				E18BF587069FEA1300F076B8 /* Cocoa.framework in Frameworks */,
 				E18BF588069FEA1300F076B8 /* Carbon.framework in Frameworks */,
+				6125BE2C174FB56000B741D9 /* HexFiend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +749,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E18BF5A2069FEA1400F076B8 /* Cocoa.framework in Frameworks */,
+				6125BE2D174FB56000B741D9 /* HexFiend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,6 +872,10 @@
 		3D3B99B704DC167D0056861E /* Icon Editor */ = {
 			isa = PBXGroup;
 			children = (
+				6125BFC0174FC08D00B741D9 /* version.plist */,
+				6125BFBE174FC08800B741D9 /* README.txt */,
+				6125BFA8174FC07300B741D9 /* ICONEditor.xcodeproj */,
+				6125BFA6174FC06F00B741D9 /* Info-ICONEditor__PB2___Upgraded_.plist */,
 				3D3B99B904DC16A30056861E /* ICONWindowController.h */,
 				3D3B99B804DC16A30056861E /* ICONWindowController.m */,
 				3D3B99BC04DC16FC0056861E /* ICONWindow.nib */,
@@ -836,6 +883,15 @@
 				E1193947099940FD00A3A6EA /* InfoPlist.strings */,
 			);
 			path = "Icon Editor";
+			sourceTree = "<group>";
+		};
+		6125BFA9174FC07300B741D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6125BFB1174FC07300B741D9 /* ICONEditor.plugin */,
+				6125BFB3174FC07300B741D9 /* ICONEditor.plugin */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E11937F309991C1100A3A6EA /* Support Resources */ = {
@@ -849,6 +905,7 @@
 		E15CFDA009999637004929B6 /* Support Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6125BF96174FBFFD00B741D9 /* Font Templates.rsrc */,
 				E15CFD6D099995D1004929B6 /* Templates for sfnt tables.rsrc */,
 			);
 			name = "Support Resources";
@@ -857,6 +914,7 @@
 		E18BF7B8069FFA5200F076B8 /* Font Editor */ = {
 			isa = PBXGroup;
 			children = (
+				6125BF99174FC01400B741D9 /* FontWindowController.m */,
 				E18BF7D1069FFC7600F076B8 /* FontWindowController.h */,
 				E18BF7D2069FFC7600F076B8 /* FontWindowController.mm */,
 				E1193607099830D200A3A6EA /* FontDocument.nib */,
@@ -1122,6 +1180,7 @@
 		F5B588490156D40B01000001 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6125BE2B174FB56000B741D9 /* HexFiend.framework */,
 				F5B5884A0156D40B01000001 /* Carbon.framework */,
 				F54625C6029174F601A8010C /* CoreServices.framework */,
 				F54626490291750201A8010C /* ApplicationServices.framework */,
@@ -1252,6 +1311,7 @@
 		F5B588FC0156DC2201000001 /* PICT Editor */ = {
 			isa = PBXGroup;
 			children = (
+				6125BFC2174FC0DC00B741D9 /* PictWindow.nib */,
 				F5B588FD0156DC2201000001 /* PICT Editor.h */,
 				F5B588FE0156DC2201000001 /* Classes */,
 			);
@@ -1344,6 +1404,9 @@
 		F5EF839F020C08E601A80001 /* Hex Editor */ = {
 			isa = PBXGroup;
 			children = (
+				6125BFA3174FC04E00B741D9 /* SupportedTypes.plist */,
+				6125BFA0174FC04000B741D9 /* HexWindowController.m */,
+				6125BF9C174FC02E00B741D9 /* PasteMenu.nib */,
 				F54E6220021B6A0801A80001 /* FindSheetController.h */,
 				F54E6221021B6A0801A80001 /* FindSheetController.m */,
 				F5EF83A0020C08E601A80001 /* HexEditorDelegate.h */,
@@ -1722,6 +1785,12 @@
 			mainGroup = F5B588100156D2A601000001;
 			productRefGroup = F5B588110156D30301000001 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6125BFA9174FC07300B741D9 /* Products */;
+					ProjectRef = 6125BFA8174FC07300B741D9 /* ICONEditor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E18BF537069FEA1300F076B8 /* ResKnife Cocoa */,
@@ -1735,6 +1804,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6125BFB1174FC07300B741D9 /* ICONEditor.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ICONEditor.plugin;
+			remoteRef = 6125BFB0174FC07300B741D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6125BFB3174FC07300B741D9 /* ICONEditor.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ICONEditor.plugin;
+			remoteRef = 6125BFB2174FC07300B741D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E18BF553069FEA1300F076B8 /* Resources */ = {
@@ -1763,6 +1849,12 @@
 				E18BF567069FEA1300F076B8 /* ResKnife.scriptTerminology in Resources */,
 				E18BF568069FEA1300F076B8 /* Export.tiff in Resources */,
 				E18BF569069FEA1300F076B8 /* Resource Type Mappings.strings in Resources */,
+				6125BF9E174FC02E00B741D9 /* PasteMenu.nib in Resources */,
+				6125BFA4174FC04E00B741D9 /* SupportedTypes.plist in Resources */,
+				6125BFA7174FC06F00B741D9 /* Info-ICONEditor__PB2___Upgraded_.plist in Resources */,
+				6125BFBF174FC08800B741D9 /* README.txt in Resources */,
+				6125BFC1174FC08D00B741D9 /* version.plist in Resources */,
+				6125BFC4174FC0DC00B741D9 /* PictWindow.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1772,6 +1864,8 @@
 			files = (
 				E18BF598069FEA1400F076B8 /* HexWindow.nib in Resources */,
 				E18BF599069FEA1400F076B8 /* FindSheet.nib in Resources */,
+				6125BF9F174FC02E00B741D9 /* PasteMenu.nib in Resources */,
+				6125BFA5174FC04E00B741D9 /* SupportedTypes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1834,6 +1928,7 @@
 				E18BF7D3069FFC7600F076B8 /* FontWindow.nib in Resources */,
 				E1193609099830D300A3A6EA /* FontDocument.nib in Resources */,
 				E11936660998552900A3A6EA /* Localizable.strings in Resources */,
+				6125BF98174FBFFD00B741D9 /* Font Templates.rsrc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1844,6 +1939,7 @@
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6125BF97174FBFFD00B741D9 /* Font Templates.rsrc in Rez */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1921,6 +2017,8 @@
 				E18BF585069FEA1300F076B8 /* RKSupportResourceRegistry.m in Sources */,
 				0EBA8667122CF49800FEC1AC /* NGSCategories.m in Sources */,
 				A59774F21556EE950093DD6B /* SamplePluginTemplateField.m in Sources */,
+				6125BF9A174FC01400B741D9 /* FontWindowController.m in Sources */,
+				6125BFA1174FC04000B741D9 /* HexWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1934,6 +2032,7 @@
 				E18BF59E069FEA1400F076B8 /* FindSheetController.m in Sources */,
 				E18BF59F069FEA1400F076B8 /* Notifications.m in Sources */,
 				E18BF5A0069FEA1400F076B8 /* NSData-HexRepresentation.m in Sources */,
+				6125BFA2174FC04000B741D9 /* HexWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2027,6 +2126,7 @@
 			files = (
 				E18BF7D5069FFC7600F076B8 /* FontWindowController.mm in Sources */,
 				E18BF8EB06A0027700F076B8 /* Notifications.m in Sources */,
+				6125BF9B174FC01400B741D9 /* FontWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2083,6 +2183,23 @@
 				3D3B99BD04DC16FC0056861E /* ICONWindow.nib */,
 			);
 			name = ICONWindow.nib;
+			sourceTree = "<group>";
+		};
+		6125BF9C174FC02E00B741D9 /* PasteMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6125BF9D174FC02E00B741D9 /* English */,
+			);
+			name = PasteMenu.nib;
+			sourceTree = "<group>";
+		};
+		6125BFC2174FC0DC00B741D9 /* PictWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6125BFC3174FC0DC00B741D9 /* English */,
+			);
+			name = PictWindow.nib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E1193607099830D200A3A6EA /* FontDocument.nib */ = {
@@ -2308,6 +2425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/MacPorts/Hex Fiend.app/Contents/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -2338,6 +2459,10 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/MacPorts/Hex Fiend.app/Contents/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Cocoa/Plug-Ins/Hex Editor/Info.plist";
@@ -2412,13 +2537,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/MacPorts/Hex Fiend.app/Contents/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Cocoa/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "ResKnife Cocoa";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -2433,6 +2562,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/MacPorts/Hex Fiend.app/Contents/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -2703,27 +2836,33 @@
 		E13F7F0608F0411100E2A5CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_OPENMP_SUPPORT = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Applications/MacPorts/Hex\\ Fiend.app/Contents/Frameworks",
+				);
 				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_ENABLE_EXCEPTIONS = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_GLOBAL_CONSTRUCTORS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
 				GCC_WARN_MISSING_PARENTHESES = YES;
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
-				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_PROTOTYPE_CONVERSION = YES;
 				GCC_WARN_SHADOW = YES;
-				GCC_WARN_SIGN_COMPARE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
@@ -2732,13 +2871,18 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
 				GENERATE_PKGINFO_FILE = YES;
 				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Applications/MacPorts/Hex\\ Fiend.app/Contents/Frameworks/HexFiend.framework/Headers",
+				);
 				LD_GENERATE_MAP_FILE = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = macosx;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
